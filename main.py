@@ -1,6 +1,11 @@
-def main():
-    print("Hello World!")
-    # Your code here
+from flask import Flask
 
-if __name__ == "__main__":
-    main()  
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80)
+
