@@ -15,9 +15,15 @@ To install and set up the project, follow these steps:
 
 1. Clone the repository:
 
+<<<<<<< HEAD
 ```bash
 git clone https://github.com/your-username/your-project.git
 ```
+=======
+    ```
+    git clone https://github.com/your-username/your-project.git
+    ```
+>>>>>>> 84a9bec753add91ab35a18d77cf24b1d9c30051b
 
 2. Change to the project directory:
 
