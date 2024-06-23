@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vxyh+$&9b8kc^6=gx9opgks@fvxxy&4=fu85-0x_*e9p^3k6hw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '*']
+ALLOWED_HOSTS = ['0.0.0.0', '*', 'localhost', 'https://lotus-webapp.azurewebsites.net']
 
 # Application definition
 
