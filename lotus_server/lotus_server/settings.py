@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vxyh+$&9b8kc^6=gx9opgks@fvxxy&4=fu85-0x_*e9p^3k6hw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0', '*', 'localhost', 'https://lotus-webapp.azurewebsites.net']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'lotus-webapp.azurewebsites.net']
 
 # Application definition
 
